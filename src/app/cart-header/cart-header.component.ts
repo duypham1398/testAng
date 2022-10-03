@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-
 @Component({
   selector: "app-cart-header",
   templateUrl: "./cart-header.component.html",
@@ -7,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class CartHeaderComponent implements OnInit {
   title = "Shopping Cart";
-  numberItems = 3;
+  numberItems = 4;
   constructor() {}
 
   ngOnInit() {}
